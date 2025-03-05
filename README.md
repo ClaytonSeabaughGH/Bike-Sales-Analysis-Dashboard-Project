@@ -1,41 +1,27 @@
 # Bike Sales Analysis Dashboard Project
 
 ## Overview
-This project focuses on analyzing bike sales data to derive actionable insights and visualize trends. The analysis was conducted using SQL (MySQL) to clean, transform, and analyze the dataset, followed by the creation of a dashboard to present key findings.
+This project focuses on analyzing customer data to derive actionable insights and visualize trends to improve bike sales performance. The analysis was conducted using Excel, leveraging data cleaning, PivotTables, and interactive elements to create an insightful dashboard.
 
 ## Key Accomplishments
-- **Data Cleaning**: Utilized SQL to clean and prepare data from 2,361 companies for analysis. Applied a 4-step cleaning process:
-  1. Removed duplicates.
-  2. Standardized data formats.
-  3. Reviewed and addressed null and blank values.
-  4. Eliminated unnecessary rows and columns.
-  
-- **Data Transformation**: Leveraged SQL techniques such as **JOINS** and **Common Table Expressions (CTEs)** to filter and transform raw data into a usable format.
 
-- **Data Analysis**: Applied **CTEs**, **RANK()**, and **aggregate functions** to identify trends and insights. Specifically, analyzed the top 5 companies with the most layoffs, segmented by year.
-
-- **Dashboard Creation**: Developed an interactive dashboard to visualize key metrics and insights derived from the analysis.
+- **Designed an interactive Excel dashboard** to visualize customer data and highlight key business drivers.
+- **Performed data cleaning and transformation**, addressing missing values, standardizing formats, and structuring data for analysis.
+- **Identified key trends**, such as the relationship between **income, gender, and bike purchases**, revealing that higher-income males were more likely to buy a bike.
+- **Created three PivotTable-based graphs** to display customer segmentation, income trends, and purchasing behavior.
+- **Integrated a slicer for interactivity**, allowing staff and stakeholders to dynamically filter and explore data.
 
 ## Tools & Technologies
-- **SQL (MySQL)**: For data cleaning, transformation, and analysis.
-- **Data Visualization Tools**: For creating the interactive dashboard (specify the tool used, e.g., Tableau, Power BI, or Excel).
-
-## Repository Structure
-- **SQL Scripts**: Contains the SQL queries used for data cleaning, transformation, and analysis.
-- **Data**: Includes the dataset(s) used for the analysis.
-- **Dashboard**: Files or screenshots of the final dashboard (if applicable).
-
-## How to Use This Repository
-1. Clone the repository to your local machine.
-2. Navigate to the `SQL Scripts` folder to review the SQL queries used for data cleaning and analysis.
-3. Explore the `Data` folder to access the dataset(s).
-4. Check the `Dashboard` folder for visualizations or instructions on how to view the final dashboard.
+- **Microsoft Excel**: Used for data cleaning, transformation, and visualization.
+- **PivotTables & Charts**: Leveraged to analyze trends and summarize data efficiently.
+- **Slicers**: Implemented to enhance dashboard interactivity and filtering options.
 
 ## Insights
-- Identified the top 5 companies with the highest layoffs, categorized by year.
-- Discovered trends in layoffs over time, providing actionable insights for stakeholders.
+- Higher-income individuals, particularly males, were more likely to purchase a bike.
+- Income disparities existed between customers who bought bikes and those who didn't.
+- Customer segmentation revealed distinct purchasing patterns based on demographics such as gender and region.
 
 ## Future Enhancements
-- Expand the dataset to include additional years or industries for broader analysis.
-- Incorporate machine learning models to predict future layoff trends.
-- Enhance the dashboard with additional interactive features.
+- Expand the dataset to include additional years or geographic regions for broader analysis.
+- Introduce predictive modeling in Excel using regression analysis to forecast future sales trends.
+- Enhance the dashboard with additional KPIs and visualizations for deeper insights.
